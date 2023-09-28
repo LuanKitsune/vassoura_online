@@ -1,0 +1,50 @@
+Parte 3: Perguntas Teóricas (10 pontos)
+
+3.1. Explique a importância e as 
+vantagens de usar Docker no 
+desenvolvimento de aplicações. (3 pontos)
+
+R: Utilizar o docker, permite que o usuário, 
+tenha uma melhor vizibilidade de cada função,
+uma vez que separadas, estão melhor dispostas,
+e organizadas. O Docker é melhor, para desenvolvimento
+de sistemas modulares, não moníticos, oque são sistemas
+mais sofisticados, mais interativos, expansivos, escalonáveis,
+e todas essas qualidades, são consequentemente, herdadas
+pelo docker.
+
+
+3.2. Descreva como o JWT funciona 
+e quais são suas vantagens para 
+autenticação. (3 pontos)
+
+R: Quando o usário, faz o login, ele gera um token, que guarda 
+temporariamente com cookies, as informações de login, e junto 
+uma série de caracteres secretos, que serve como uma chave secreta
+essa chave é gerada por um valor atribuído, pelos dados no payload.
+Quando o cliente, fizer uma requisição, é enviado junto a ela, o JWT
+que será conferido pelo servidor, que irá verificar a assinatura.
+O uso do JWT agiliza o processo de entrega de requisições, já que a 
+idéia, é como se fosse uma memória volátil digital, proporcionando
+acesso mais rápido as informações, não precisando da busca pelas 
+credenciais em um banco de dados, toda vez que o cliente realizar
+uma requisão.
+
+3.3. Diferencie bancos de dados 
+relacional e não relacional, dando 
+exemplos de quando usar cada tipo 
+em uma aplicação como a proposta. (4 pontos)
+
+R: bancos de dados relacionais, são organizados em tabelas, que utilizam
+primary key's e Foreign Key's para realizar, os relacionamentos (1,1- 1n, 
+para muitos - Muitos para, N1-para muitos - N,N - relacionamentos de agregação -
+relacionamentos de composição, e etc. São estáveis, requerem uma rigidez na imputação
+dos tipos de dados, requerindo uma expecificação mais detalhada, usam linguagem SQL, e 
+são mais utilizadas para dados de finanças em bancos, e outros tipos de dados que requerem
+uma maior estabilidade.
+
+Já os não relacionáveis, não são computados os relacionamentos no banco, permitindo maior 
+flexibilidade, na movimentação entre determinadas colunas de dados, oque permite 
+o cruzamento de dados, e registros por parte da aplicação, permitindo uma flexibilização extrema
+dos dados e da forma que eles serão geridos. São melhores para aplicações como redes socias, por 
+exigirem mais escalabilidade, mais flexibilidade, pelas altas taxas de dados enviados, e retornados. 
